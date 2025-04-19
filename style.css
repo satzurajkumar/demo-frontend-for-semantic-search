@@ -1,0 +1,45 @@
+body {
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+.search-container {
+	position: relative; /* Needed for absolute positioning of the dropdown */
+	width: 300px;
+	margin-bottom: 20px;
+}
+
+#searchInput {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.suggestions-dropdown {
+	display: none; /* Hidden by default */
+	position: absolute;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: white;
+	width: 100%; /* Match the input width */
+	max-height: 200px;
+	overflow-y: auto;
+	z-index: 1000; /* Ensure it's above other content */
+	box-sizing: border-box;
+}
+
+.suggestions-dropdown div {
+	padding: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid #eee; /* Separator line */
+}
+
+.suggestions-dropdown div:last-child {
+	border-bottom: none; /* No line for the last item */
+}
+
+.suggestions-dropdown div:hover {
+	background-color: #f0f0f0;
+}
