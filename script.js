@@ -1,6 +1,6 @@
 const searchInput = document.getElementById("searchInput");
 const suggestionsDropdown = document.getElementById("suggestionsDropdown");
-const backendUrl = "http://127.0.0.1:8000"; // Your backend server address
+const backendUrl = "https://search-rndr.onrender.com"; // Your backend server address /check before running/testing
 
 let debounceTimeout;
 
