@@ -5,17 +5,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Simple Search Autocomplete</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
 	</head>
 	<body>
 		<h1>Product Search</h1>
 
 		<div class="search-container">
+			<span class="material-symbols-outlined search-icon">search</span>
 			<input
 				type="text"
 				id="searchInput"
 				placeholder="Search for products..."
 				autocomplete="off"
 			/>
+			<span class="material-symbols-outlined camera-icon">camera_alt</span>
 			<div id="suggestionsDropdown" class="suggestions-dropdown"></div>
 		</div>
 
