@@ -29,3 +29,11 @@ Try it locally or hook it up to your favorite semantic search backend!
 ```bash
 git clone https://github.com/your-username/semantic-search-frontend.git
 cd semantic-search-frontend
+```
+### 2. Serve the Files
+You can use any static file server, or open index.html directly in the browser:
+
+# Example using Python
+```
+python3 -m http.server 8080
+```
