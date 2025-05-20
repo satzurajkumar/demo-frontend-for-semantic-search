@@ -33,7 +33,7 @@ cd semantic-search-frontend
 ### 2. Serve the Files
 You can use any static file server, or open index.html directly in the browser:
 
-# Example using Python
+# Example usin
 ```
-python3 -m http.server 8080
+dev run
 ```
