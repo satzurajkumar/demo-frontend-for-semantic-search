@@ -33,7 +33,8 @@ cd semantic-search-frontend
 ### 2. Serve the Files
 You can use any static file server, or open index.html directly in the browser:
 
-# Example usin
-```
-dev run
+# Post a search request
+```json
+{ "query": "your search term" }
+
 ```
